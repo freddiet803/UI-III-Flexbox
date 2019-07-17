@@ -63,6 +63,74 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-* {
-    color: blue;
+.container {
+    margin: auto;
+    width: 900px;
+	border: solid 1px black;
+	
+}
+
+
+.nav-flexing {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+.logo {
+	margin-left: 10px;
+}
+
+.last-anchor {
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.services-section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+.middle-section {
+	border-top: solid 1px black;
+	padding-top: 40px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.box {
+	width: 48%;
+	margin-bottom: 40px;
+	border: solid 1px black;
+	padding: 20px;
+}
+
+.learn {
+	border: solid 1px black;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 35%;
+	text-align: center;
+	padding: 10px 0px;
+}
+p {
+	line-height: 20px;
 }
