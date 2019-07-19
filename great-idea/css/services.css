@@ -89,10 +89,14 @@ h1, h2, h3, h4, h5 {
 	margin-right: 20px;
 }
 
-nav a {
+header nav a {
 	text-decoration: none;
 	color: grey;
+	transition: all 1s ease-out;
+	
 }
+
+
 
 .services-header-img {
 	width: 100%;
@@ -171,7 +175,7 @@ ul.footer-list {
 
 
 
-  @media only screen and (max-width: 480px) {
+  @media  (max-width: 480px) {
 	body {
 	  width: 100%;
 	}
